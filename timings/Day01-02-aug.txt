@@ -1,0 +1,5 @@
+
+Joined Aug batch of pathnex
+learned about EC2 and github
+made Git repostory
+Pushed file to git
