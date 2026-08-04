@@ -1,0 +1,7 @@
+Joined 3 Aug class in th morning
+joined the evening class
+Learned more linux commands
+practiced the linux command
+started an Ec2 instance on Aws
+connected to the Ec2 Instance using local ubuntu
+

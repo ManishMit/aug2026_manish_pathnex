@@ -1,0 +1,18 @@
+Linux commands practiced
+Absolute vs relative path 
+Top : tells the realtime usage of CPU and running processes
+it also tells us about the load avg which is displayed in three parts 1min avg 5min avg and 15 min avg
+Sometimes it shows CPU usgae to be more than 100% which only means it have more than one core, 100% represents full utilization of one core and so on
+
+Head : used to display first 10 lines of a file can be used like head -n 5 filename
+Tail : similar to head displays last 10 lines of a file
+ln : used to create links to files which can be soft link( it is a symbolic link when file is deleted the link can not display the file) or hard link
+ll : alias for ls -l which displays the contents of the directory we are currently in
+find : it is used to find any file present in the system can be used with
+	-type which finds the specific types of file eg find /diectortyPath -t ".txt"
+	-name which finds file by name or letters in name find /diectortyPath -name "*x*"
+	-size which finds file by size, it is the most used command find /directoryPath -size +100kb (for files>100kb)
+du : disk usage command used to tell about the disk usage du -h (human readable format)
+df : disk free command 
+df -h vs df - hi : df -h gives disk free data in human readable format while -hi gives data about inodes which are basically the index of the files and stores the metadata of the files some times inode space is full which can cause disk full problem
+ pipe | : works as a filter gives output of one command to another command
