@@ -1,0 +1,25 @@
+linux practice:
+ps command : displays running processes
+ps aux : shows all processes
+ps vs top : ps is like a screenhot of the processes while top show realtime 
+htop : htop is more userfriendly than top
+kill : to stop/kill a running process
+kill -9 : to force stop
+grep : used to search patterns
+egrep : to search multiple queries
+egrep -iv "running|completed" : gives all except running and completed
+awk : used for text processing
+wc : word count used with other commands to count the words
+uptime : to view time server has been on
+lscpu : to view cpu information
+ping : to see reachability of a server
+telnet : to view if server port can be connected
+wget : to download data from server(best for download)
+curl : to transfer data (best for talking to server or api)
+run levels : 0-6 levels( init -06 to restart)
+Exit codes
+history command to watch history and delete so that some sensitive info is not displayed in the history
+
+
+
+

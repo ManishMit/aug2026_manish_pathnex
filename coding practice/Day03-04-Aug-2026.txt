@@ -1,0 +1,18 @@
+
+hostname-	Display or set the system hostname
+cut -d: -f1 /etc/passwd	-List all usernam
+root	-Superuser with full system privileges (UID 0)
+who-	Show all currently logged-in users
+whoami	-Show the current logged-in user
+sudo useradd username-	Create a new user
+sudo useradd m username	Create a new user with a home directory
+sudo passwd username	Set or change a user's password
+sudo groupadd groupname	Create a new group
+sudo usermod -aG groupname username	Add a user to a group
+sudo	Execute a command with administrative privileges
+sudo systemctl restart sshd	
+Restart the SSH server service
+Find command using -name "e", -type, -iname, -size (most used ),
+du -h 
+df -h
+Pipe |
