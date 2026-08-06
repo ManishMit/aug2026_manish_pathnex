@@ -10,4 +10,9 @@ sudo passwd username	Set or change a user's password
 sudo groupadd groupname	Create a new group
 sudo usermod -aG groupname username	Add a user to a group
 sudo	Execute a command with administrative privileges
-sudo systemctl restart sshd	Restart the SSH server service
+sudo systemctl restart sshd	
+Restart the SSH server service
+Find command using -name "e", -type, -iname, -size (most used ),
+du -h 
+df -h
+Pipe |
