@@ -1,0 +1,5 @@
+Attended morning class 3 hours
+Learned about EC2
+practiced linux 
+watched shell scripting video 1.5 hrs
+commited 07 August files
