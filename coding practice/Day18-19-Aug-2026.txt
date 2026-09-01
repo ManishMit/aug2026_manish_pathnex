@@ -19,6 +19,7 @@
         state: started
         enabled: yes
 
+
 #Terraform — Multi-Region Auto-scaling Group with ALB
 resource "aws_lb" "pathnex_lb" {
   name               = "pathnex-lb"
@@ -57,7 +58,6 @@ spec:
           image: nginx
           ports:
             - containerPort: 80
-
 ---
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
